@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # 🛍️ Mohini Undergarments
 
 A modern e-commerce frontend for Mohini Undergarments, offering a seamless shopping experience for a stylish and comfortable range of undergarments. Built with React, TypeScript, TailwindCSS, and Supabase for robust performance and scalability.
@@ -8,6 +8,7 @@ A modern e-commerce frontend for Mohini Undergarments, offering a seamless shopp
 - **User-Friendly Interface:** Clean, intuitive, and responsive design for effortless browsing on any device.
 - **Product Catalog:** Browse, search, and filter a wide range of undergarments.
 - **Wishlist:** Save favorite products for later.
+- **Cart Management:** Add, update, and remove items from your cart.
 - **Admin Panel:** Manage products, inventory, and categories with ease.
 - **Secure Authentication:** User login and registration powered by Supabase.
 - **Real-Time Updates:** Instant product and wishlist updates.
@@ -26,22 +27,25 @@ A modern e-commerce frontend for Mohini Undergarments, offering a seamless shopp
    ```sh
    git clone https://github.com/dracula116911/mohini-undergarments.git
    cd mohini-undergarments
-   ```
+````
 
 2. **Install dependencies:**
+
    ```sh
    npm install
    ```
 
 3. **Set up environment variables:**
-   - Copy `.env.example` to `.env` and fill in your Supabase credentials.
+
+   * Copy `.env.example` to `.env` and fill in your Supabase credentials.
 
 4. **Run the development server:**
+
    ```sh
    npm run dev
    ```
 
-5. **Open in browser:**  
+5. **Open in browser:**
    Visit [http://localhost:5173](http://localhost:5173)
 
 ## 🛠️ Project Structure
@@ -57,6 +61,10 @@ src/
   main.tsx         # Entry point
 ```
 
+## 🧑‍💻 Author & Contribution
+
+This project is built by **Sahil Helaiya**. From setting up the project architecture to implementing cart, wishlist, and user authentication with Supabase — this was a complete hands-on project involving UI/UX design and coding.
+
 ## 📝 Contributing
 
 Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
@@ -67,6 +75,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> Made with ❤️ by the Mohini Undergarments team.
+> Made with ❤️ by Sahil Helaiya for Mohini Undergarments.
+
 ```
-Replace `YOUR-USERNAME` and `YOUR-REPO` with your actual GitHub username and repository name.
+```
